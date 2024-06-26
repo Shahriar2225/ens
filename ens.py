@@ -119,5 +119,5 @@ else:
     while st.session_state.index != -1:
         update_data()
         display_data()
-        time.sleep(3)  
+        time.sleep(1.75)  
         st.experimental_rerun()
